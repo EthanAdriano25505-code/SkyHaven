@@ -1,3 +1,7 @@
-[services]
-[services.skyhaven]
-start = "python monitor_airspace.py"
+# railway.toml
+
+[build]
+builder = "Python"
+
+[start]
+cmd = "python monitor_airspace.py"
