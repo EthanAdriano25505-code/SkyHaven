@@ -1,2 +1,2 @@
 [services]
-"web" = { start = "python monitor_airspace.py" }
+"web" = { source = ".", dockerfile = "Dockerfile" }
