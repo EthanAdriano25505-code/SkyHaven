@@ -1,3 +1,7 @@
 [service]
 name = "SkyHaven"
 start = "python monitor_airspace.py"
+
+[env]
+RAILWAY_NIXPACKS_USE_PROCFILE = "false"
+
