@@ -1,2 +1,5 @@
-[services]
-"web" = { source = ".", dockerfile = "Dockerfile" }
+[build]
+nixpacks = true
+
+[deploy]
+start = "python monitor_airspace.py"
