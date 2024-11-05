@@ -1,7 +1,3 @@
-# railway.toml
-
-[build]
-builder = "Python"
-
-[start]
-cmd = "python monitor_airspace.py"
+[service]
+name = "SkyHaven"
+start = "python monitor_airspace.py"
