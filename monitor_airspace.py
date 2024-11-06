@@ -57,4 +57,4 @@ def check_aircraft():
         return jsonify({"error": str(e)}), 500
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=5000)  # Bind to 0.0.0.0 for public access
